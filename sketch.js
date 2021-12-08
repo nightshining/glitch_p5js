@@ -78,7 +78,7 @@ function draw() {
  
      
    push();
-   scale(0.7,0.7);
+   scale(0.6,0.6);
    image (glitch.image,0,0);
    pop();
   
