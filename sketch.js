@@ -12,7 +12,7 @@ let img;
 
 function setup(){
 
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(612,612);//image size, want this to work with embed no scrolling 
   background(0);
   //imageMode(CENTER);
 
@@ -131,7 +131,7 @@ function draw() {
 }
 
 function windowResized(){
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(612,612);
 }
 
 function mousePressed(){
