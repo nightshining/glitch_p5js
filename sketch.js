@@ -77,9 +77,10 @@ function draw() {
    // pass1.rect(0,0,width/2, height/2);
  
      
-
+   push();
+   scale(0.5,0.5);
    image (glitch.image,0,0);
-
+   pop();
   
    if (bFilter){ 
     filter(INVERT); 
